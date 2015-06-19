@@ -1,0 +1,120 @@
+/* Lasios Main CSS */
+
+/* ----- 0. Reset ------ */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ----- 1. Layout ----- */
+
+nav {
+	position: fixed;
+	width: 250px;
+	height: 100%;
+}
+
+/* ----- 2. General Styles ----- */
+
+html {
+	background:  #000 url(assets/images/black-white-lion-head-md.png) no-repeat fixed center;
+}
+
+a, 
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	color: #b3a2ff;
+}
+
+
+/* ----- 3. Styling ----- */
+
+/* ----- 3a. Main navigation ----- */
+nav {
+	display: none;
+	background: #eee;
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav ul li {
+	margin-bottom: 10px;
+	border-bottom: 2px solid #fff;
+}
+
+nav ul li:first-child {
+	margin-top: 10px;
+}
+
+nav ul li a,
+nav ul li a:visited {
+}
+
+nav ul li:hover {
+	border-bottom: 2px solid #000;
+}
+
+/* ----- 3b. Quote style ----- */
+#quote1,
+#quote2,
+#quote3,
+#quote4,
+#quote5{
+	display: none;
+	position: relative;
+	/*background: url(assets/images/unnamed.png) no-repeat;*/
+	color: #ff0000;
+	left: 600px;
+	text-align: left;
+}
